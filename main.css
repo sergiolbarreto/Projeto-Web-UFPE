@@ -72,17 +72,32 @@ html, body {
     color:rgb(0, 0, 0);
 }
 
-a {
+.header a {
     display: inline-block;
     text-decoration: none;
-    transition: 1s;
+    transition: background 1s;
     background-color: seashell;
     color: black;
     border-radius: 4px;
 }
 
-a:hover{
-    transform: translateY(-15px); 
+.header a:hover{
+    background: red;
+    
+}
+
+.main a {
+    display: inline-block;
+    text-decoration: none;
+    transition: 1s;
+    background-color: green;
+    color: black;
+    border-radius: 4px;
+}
+
+.main a:hover{
+    transform: translateY(-15px);
+    
 }
 
 .section {
